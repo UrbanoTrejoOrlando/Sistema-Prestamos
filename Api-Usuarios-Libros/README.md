@@ -134,7 +134,7 @@ npm start
 ```
 ### 🔸 Actualizar un usuario (PUT `/users/:id`)
 - **URL:** `http://localhost:4000/api/users/690cdfb347d30ac60b4c4cfe`
-**Método:** PUT
+- **Método:** PUT
 - **Body (JSON):**
 ```json
 {
@@ -161,7 +161,7 @@ npm start
 ```
 ### 🔸 Eliminar una tarea (DELETE `/users/:id`)
 - **URL:** `http://localhost:4000/api/users/690cdfb347d30ac60b4c4cfe`
-**Método:** DELETE
+- **Método:** DELETE
 - **Respuesta esperada: 200 OK**
 ```json
 {
@@ -257,7 +257,7 @@ npm start
 
 ### 🔸 Actualizar un libro (PUT `/books/:id`)
 - **URL:** `http://localhost:4000/api/books/690ce5ae47d30ac60b4c4d04`
-**Método:** PUT
+- **Método:** PUT
 - **Body (JSON):**
 ```json
 {
@@ -285,7 +285,7 @@ npm start
 
 ### 🔸 Eliminar un libro (DELETE `/books/:id`)
 - **URL:** `http://localhost:4000/api/books/690ce5ae47d30ac60b4c4d04`
-**Método:** DELETE
+- **Método:** DELETE
 - **Respuesta esperada: 200 OK**
 ```json
 {
