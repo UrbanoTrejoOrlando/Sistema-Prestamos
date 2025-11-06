@@ -44,7 +44,7 @@ npm start
 | POST   | `/loans`     | Hacer un prestamo         |
 | GET    | `/loans`     | Obtener todos los usuarios     |
 | GET    | `/loans/:id` | Obtener un prestamo por el id |
-| GET | `loans/user/:id` | Obtener los prestamos que tiene un usuario             |
+| GET | `/loans/user/:id` | Obtener los prestamos que tiene un usuario             |
 | PUT | `/loans/:id` | Actualizar la devolucion de un libro             |
 | DELETE | `/loans/:id` | Eliminar un prestamo             |
 
