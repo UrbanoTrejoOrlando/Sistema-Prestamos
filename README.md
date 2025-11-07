@@ -11,6 +11,37 @@ La arquitectura permite escalabilidad, separación de responsabilidades y despli
 
 ## Tecnologías utilizadas  
 - JavaScript / Node.js.  
-- Frameworks para construcciones de APIs (por ejemplo Express u otro similar — ajustar según corresponda).  
-- Base de datos (cada microservicio puede tener su propia base de datos; ajustar: MongoDB, PostgreSQL, etc).  
+- Frameworks para construcciones de APIs (Express)  
+- Base de datos (cada microservicio puede tener su propia base de datos: MongoDB
 - Arquitectura de microservicios + API Gateway.
+
+### 📁 Estructura del proyecto  
+
+**Sistema-Prestamos**
+
+- **Api-Gateway/** ← Microservicio Gateway (orquestador) 
+- **Api_Usuarios-Libros/** ← Microservicio de usuarios y libros
+- **Prestamos/** ← Microservicio de prestamos
+- README.md ← Este README principal
+
+---
+
+## Cómo usar el proyecto
+
+Se recomienda primero configurar y levantar **Api_Usuarios-Libros** y **Prestamos** para ejecutar **Api_Gateway**
+### Api-Gateway*
+
+- Documentación completa y pasos de instalación en:  
+  [Api-Gateway/README.md](Api-Gateway/README.md)
+
+### Api-Usuarios-Libros
+
+- Documentación completa y pasos de instalación en:  
+  [Api_Usuarios-Libros/README.md](Api_Usuarios-Libros/README.md)
+
+### Prestamos
+
+- Documentación completa y pasos de instalación en:  
+  [Prestamos/README.md](Prestamos/README.md)
+
+---
