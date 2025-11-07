@@ -20,7 +20,7 @@ La arquitectura permite escalabilidad, separación de responsabilidades y despli
 **Sistema-Prestamos**
 
 - **Api-Gateway/** ← Microservicio Gateway (orquestador) 
-- **Api_Usuarios-Libros/** ← Microservicio de usuarios y libros
+- **Api-Usuarios-Libros/** ← Microservicio de usuarios y libros
 - **Prestamos/** ← Microservicio de prestamos
 - README.md ← Este README principal
 
@@ -28,7 +28,7 @@ La arquitectura permite escalabilidad, separación de responsabilidades y despli
 
 ## Cómo usar el proyecto
 
-Se recomienda primero configurar y levantar **Api_Usuarios-Libros** y **Prestamos** para ejecutar **Api_Gateway**
+Se recomienda primero configurar y levantar **Api-Usuarios-Libros** y **Prestamos** para ejecutar **Api-Gateway**
 ### Api-Gateway*
 
 - Documentación completa y pasos de instalación en:  
@@ -37,7 +37,7 @@ Se recomienda primero configurar y levantar **Api_Usuarios-Libros** y **Prestamo
 ### Api-Usuarios-Libros
 
 - Documentación completa y pasos de instalación en:  
-  [Api_Usuarios-Libros/README.md](Api_Usuarios-Libros/README.md)
+  [Api-Usuarios-Libros/README.md](Api-Usuarios-Libros/README.md)
 
 ### Prestamos
 
